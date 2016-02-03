@@ -1,0 +1,15 @@
+config_eno1="null"
+config_eno3="null"
+
+slaves_bond0="eno1 eno3"
+
+mode_bond0="802.3ad"
+miimon_bond0="100"
+lacp_rate_bond0="1"
+
+config_bond0="172.16.0.150/24"
+routes_bond0="default via 172.16.0.254"
+
+dns_domain="lan.t4ds.net"
+dns_servers="128.206.6.244 128.206.130.244"
+dns_search="lan.t4ds.net"
